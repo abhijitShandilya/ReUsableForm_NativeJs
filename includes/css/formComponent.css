@@ -1,0 +1,50 @@
+/* ========== Resest Default Styles ========== */
+.form-container{margin:50px auto;background:#FBFBFB;border:1px solid #ddd;font-family:Tahoma;border-radius:4px;font-size:12px}
+.form-container *{outline:0;overflow:hidden;text-overflow:ellipsis;word-wrap:break-word;white-space:nowrap;margin:0;border:0;padding:0}
+.form-container :focus{outline:none}
+.form-container ul{list-style:none}
+.form-container .hide{display:none!important}
+.form-container > div{padding:20px}
+
+/* ========== Button Styles ========== */
+.form-container input[type="button"],.form-container input[type="submit"]{color:#fff;width:100px;padding:7px 16px;font-size:12px;cursor:pointer;font-weight:700;border-radius:4px;border:1px solid;text-transform:capitalize;display:inline-block}
+.form-container input[type="submit"]{background-color:#563d7c;border-color:#fff}
+.form-container input[type="submit"]:hover{color:#563d7c;background-color:#fff;border-color:#563d7c}
+.form-container input[type="button"].add-btn{background-color:#5cb85c;border-color:#4cae4c}
+.form-container input[type="button"].add-btn:hover{background-color:#fff;color:#398439}
+.form-container input[type="button"].delete-all{background-color:#d9534f;border-color:#d43f3a}
+.form-container input[type="button"].delete-all:hover{background-color:#fff;color:#d43f3a}
+.form-container span.edit input[type="button"]{background-color:#1b809e;border-color:hsl(194,71%,28%)}
+.form-container span.edit input[type="button"]:hover{background-color:#fff;color:#15627A}
+.form-container span.save input[type="button"]{background-color:hsl(146,76%,39%);border-color:hsl(146,76%,34%)}
+.form-container span.save input[type="button"]:hover{background-color:#fff;color:#15994E}
+.form-container span.cancel input[type="button"]{background-color:#f0ad4e;border-color:#eea236}
+.form-container span.cancel input[type="button"]:hover{background-color:#ec971f;border-color:#d58512}
+.form-container span.remove input[type="button"]{background-color:hsl(2,64%,60%);border-color:hsl(2,64%,51%)}
+.form-container span.remove input[type="button"]:hover{background-color:#fff;color:hsl(2,64%,51%)}
+
+/* ========== Data Etnry Block Styles ========== */
+.form-container .data-entry div{width:70%;float:left;border-radius:2px}
+.form-container input[type="text"]{display:inline-block;border:1px solid #b9b9b9;float:left;color:#404040;border-radius:2px;text-indent:10px;background:#fff;height:28px;font-size:14px}
+.form-container input[type="text"]:focus{border-color:#4d90fe}
+.form-container .data-entry div input[type="text"]{width:95%}
+.edit-name{width:40%;margin-right:5%}
+
+/* ========== Message Styles ========== */
+.form-container .msg{padding:6px 14px;height:14px;border:1px solid transparent;margin:10px auto;display:inline-block;float:none;clear:both}
+.form-container .error-msg{color:#a94442;background-color:#f2dede;border-color:#ebccd1}
+.form-container .success-msg{color:#4cae4c;background-color:hsl(120,39%,92%);border-color:hsl(120,39%,90%)}
+
+/* ========== List Display Styles ========== */
+.form-container .name-list{border-bottom:1px solid #ccc;padding-bottom:5px;margin-bottom:3px}
+.form-container ul li div{margin:2px 0}
+.form-container ul li div:hover{background:hsl(0,0%,91%)}
+.form-container .name-list label,.form-container ul li div label{float:left;display:inline-block;width:70%}
+.form-container ul li div label.custom-label{font-size:12px;color:#555;font-weight:400;margin-top:2px}
+.form-container ul li span,.form-container .name-list span,.form-container .data-entry span{display:inline-block;width:25%;text-align:center;float:right}
+.form-container .submit-wrapper{text-align:center;margin-top:30px}
+.form-container .count-wrpper span{margin-left:10px}
+.form-container label.custom-label,.form-container div.custom-label{font-family:'Open Sans',arial;color:#3B3B3B;font-size:14px;text-transform:capitalize;padding:6px 0;text-align:left;font-weight:700}
+.form-container div.count-wrpper{border-top:1px solid #ccc;margin-top:3px;padding-top:20px}
+.form-container .data-entry > label{display:block;margin-bottom:5px}
+.form-container ul li div > label{width:45%}

@@ -1,0 +1,52 @@
+Hello Sir / Madam,
+Please find attached my submission for the code assignment.
+I really enjoyed working on the assignment !
+
+-Abhijit, 956-777-3759.
+
+-------------------------------------------------------
+
+Candidate Details
+==================================
+
+	Subject : Code Submission (TripleLift | Full Stack Web Engineering Intern | New York)
+
+	Candidate Name : Abhijit Shandilya
+
+	Email : abhijit.shan@gmail.com
+
+	Cell : 956-777-3759
+
+
+Functions :
+==================================
+
+	1. Users can ADD a string to List (Success Message is shown after addition)
+
+	2. Users can EDIT an entry in the row directly and SAVE it or DISCARD it.
+
+	3. Users Can DELETE an entry
+
+	4. Users can DELETE ALL of the entries at one go
+
+	5. DELETE ALL button is visible only when list is not empty
+
+	6. Users can SUBMIT the form (an Array is returned which contains the list elements)
+
+	7. Error Messages-
+						a. user tries to add a null string
+						b. user tries to add a string which has only white space characters
+						c. user tries to perform SUBMIT on an empty list
+
+	8. Total No. Of entry in the list is visible (updated with each addition and deletion)
+
+
+Time Details :
+==================================
+
+	Total Time Taken = 10 hours
+
+	Development (HTML + JS) - 7 hours
+	Styling (CSS) - 2 hour
+	Comments + Documentation  - 1 hour
+

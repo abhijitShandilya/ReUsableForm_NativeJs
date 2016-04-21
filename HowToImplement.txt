@@ -1,0 +1,80 @@
+
+
+Functions of the component :
+==================================
+
+	1. Users can ADD a string to List (Success Message is shown after addition)
+
+	2. Users can EDIT an entry in the row directly and SAVE it or DISCARD it.
+
+	3. Users Can DELETE an entry
+
+	4. Users can DELETE ALL of the entries at one go
+
+	5. DELETE ALL button is visible only when list is not empty
+
+	6. Users can SUBMIT the form (an Array is returned which contains the list elements)
+
+	7. Error Messages-
+						a. user tries to add a null string
+						b. user tries to add a string which has only white space characters
+						c. user tries to perform SUBMIT on an empty list
+
+	8. Total No. Of entry in the list is visible (updated with each addition and deletion)
+
+
+
+HOW TO IMPLEMENT this component :
+==================================
+
+
+-- > Files you need - formComponent.css and scripts.js
+
+
+-- >Steps to implement -
+
+	1. INCLUDE CSS FILE in html <head> section -
+		Example : <script type="text/javascript" src="includes/js/scripts.js"></script>
+
+	2. INCLUDE JAVASCRIPT FILE in html , preferably just before body end </body> -
+		Example : <script type="text/javascript" src="includes/js/scripts.js"></script>
+
+	3. ADD A <form> TAG in your html, with CLASS= "form-container" -
+		Example : <form class="form-container" action="" method="post"></form>
+
+	4. OPTIONALLY, after including scripts.js, you can OVERRIDE DEFAULT PARAMETERS of the component in the folowing manner -
+
+	<script>
+		/*	 Options to override default component parameters
+		
+			// width fo form
+			 formElems.width = "400px";
+
+			// message to to show on succesful entry
+			 formElems.successMessage = "Successfully added to the list";
+
+			// label of input field
+			 formElems.textFieldLabel = "first name";
+
+			// add button label 
+			 formElems.addBtnLabel = "add"
+
+			// message to to show on blank entry
+			 formElems.errorMessageBlank = "Error : Entry cannot be blank";
+
+			// message to to show on invalid input (all white spaces)
+			 formElems.errorMessageInvalid = "Error : Please enter a valid input2"
+
+			// delete all button label
+			 formElems.deleteAllBtnLabel = "delete all";
+
+			// entry count button label
+			 formElems.countLabel = "count";
+
+			// submit button label
+			 formElems.submitBtnLabel = "submit2"
+
+			 */
+	</script>
+
+                                         /*  ========  END  ======== */
